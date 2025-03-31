@@ -1,13 +1,6 @@
-@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import 'bootstrap';
 
 .container {
-    width: 80%;
-    max-width: 1200px;
-    margin: auto
+
+    width: 50% !important;
 }

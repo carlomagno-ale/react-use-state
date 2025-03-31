@@ -32,10 +32,7 @@ export default function App() {
             <button
               key={`tab-${tab.name}`}
               className={`btn ${activeTab === index ? 'btn-warning' : 'btn-primary'}`}
-              onClick={() => handleClick(tab.id)}
-            >
-              {tab.name}
-            </button>
+              onClick={() => handleClick(tab.id)}>{tab.name}</button>
           ))}
 
         </div>
